@@ -1,0 +1,36 @@
+<!--Angel Daniel Canchila, Luis Santiago Forero-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de JavaScript</title>
+</head>
+
+<body>
+    <h1>Prueba de JavaScript</h1>
+
+    
+    <script>
+        let numero1 = parseFloat(prompt("Ingrese el primer número:"));
+        let numero2 = parseFloat(prompt("Ingrese el segundo número:"));
+
+        if (isNaN(numero1) || isNaN(numero2)) {
+            console.log("Por favor, ingrese números válidos.");
+        } else {
+            let suma = numero1 + numero2;
+            let resta = numero1 - numero2;
+            let multiplicacion = numero1 * numero2;
+            let division = numero1 / numero2;
+
+            console.log("La suma de " + numero1 + " y " + numero2 + " es: " + suma);
+            console.log("La resta de " + numero1 + " y " + numero2 + " es: " + resta);
+            console.log("La multiplicación de " + numero1 + " y " + numero2 + " es: " + multiplicacion);
+            console.log("La división de " + numero1 + " y " + numero2 + " es: " + division);
+        }
+    </script>
+</body>
+
+</html>
